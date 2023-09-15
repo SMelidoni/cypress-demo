@@ -1,14 +1,11 @@
 import './App.scss';
 import React from 'react';
-import logo from './logo.svg';
+import Playground from './components/playground/playground.component';
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>Cypress Time</p>
-      </header>
+      <Playground />
     </div>
   );
 }
